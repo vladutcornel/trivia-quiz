@@ -1,0 +1,11 @@
+// Custom variables
+$carousel-control-color:        #000;
+$carousel-indicator-active-bg:  #000;
+$carousel-caption-color:        #000;
+$carousel-control-opacity: 1;
+$carousel-control-width: 5rem;
+
+// Import render-less Twitter Bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

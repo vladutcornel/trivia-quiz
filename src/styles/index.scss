@@ -1,0 +1,30 @@
+@import "init";
+
+// Import Bootstrap components
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+
+#root {
+  flex-grow: 1;
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  > .container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
