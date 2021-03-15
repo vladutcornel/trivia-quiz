@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/Start/index.scss"],"names":[],"mappings":"AAEA,OACI,oCAA6B,CAA7B,4BAA6B,CAC7B,iBAAkB","file":"6.739dd7e9.chunk.css","sourcesContent":["@import \"src/styles/init\";\n\n.Start {\n    justify-content: space-around;\n    text-align: center;\n}\n"]}
